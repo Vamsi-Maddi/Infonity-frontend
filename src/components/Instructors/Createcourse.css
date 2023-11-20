@@ -1,0 +1,28 @@
+.custom-file-input {
+    height: 100%;
+    cursor: pointer;
+    margin: auto;
+    border: 1px solid ;
+    width: auto;
+  }
+/* .main{
+  background-image: url("./bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding-bottom: 180px;
+  padding-top: 7px;
+  position: relative;
+  backdrop-filter: blur(100%);
+  
+} */
+.main::before{
+  position: absolute;
+  background: inherit ;
+  filter: blur(8px);
+  z-index: 1;
+}
+.main.content{
+  position: relative;
+  z-index: 1;
+}

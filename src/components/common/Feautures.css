@@ -1,0 +1,45 @@
+.size{   
+    height : 250px ; 
+    padding: 2rem;
+    margin: 0.5rem;
+}
+svg{
+    margin: 0.5rem ;
+}
+.card-text{
+    margin: 1rem !important;
+}
+/* 
+.line{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 500px 2em;
+margin:1rem
+    
+}  */
+.grp{
+    padding:10% 25%; 
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 15px;
+}
+
+  
+  .box :first-child {
+    align-self: center;
+  }
+  @media screen and (min-width: 00px) {
+    .line{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        gap: 10px 2rem;
+        margin:1rem;
+        
+    } 
+}
+ h4{
+    margin-bottom: 5%;
+    margin-top: -9%;
+    text-align: center;
+    color: #0062cc;
+    font-size:30px;
+}

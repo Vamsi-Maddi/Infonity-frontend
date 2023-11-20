@@ -1,0 +1,9 @@
+.profile-image{
+    text-align: center;
+    
+}
+.profile-image img{
+    border-radius: 6rem;
+    width: 8%;
+    margin-top: -3%;
+}

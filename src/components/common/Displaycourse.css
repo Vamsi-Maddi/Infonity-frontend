@@ -1,0 +1,22 @@
+.card:hover {
+    /* cursor:pointer */
+    transform: scale(1.03); 
+  }
+  .card-img-top {
+    height: 150px;
+    width : auto;
+    /* object-fit: cover;  */
+    margin-top: 12px;
+  }
+  .card {
+    border: 1px solid #ccc;
+    /* margin-top: 2px;
+    margin-bottom: 27px;
+    margin-left: 10px;
+    margin-right: 15px; */
+    width: 20rem;
+    height:28rem;
+    border-radius: 8px;
+    overflow: hidden;
+    /* transition: transform 0.4s ease; */
+  }

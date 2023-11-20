@@ -1,0 +1,83 @@
+ /* .container {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  } */
+
+  .new-forms-class {
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-container {
+    margin-left: auto;
+    margin-right:auto;
+    width: 400px;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-container h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-label {
+    font-weight: bold;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .btn-primary {
+    background-color: #5783db;
+    color: #fff;
+    border: none;
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #466bac;
+  }
+  
+  .switch-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .switch-btn {
+    background: none;
+    border: none;
+    color: #5783db;
+    cursor: pointer;
+  }
+
+  @keyframes slideInUpAnimation {
+    0% {
+        transform: translateY(50px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+  }
+
+  .login-card-body {
+    animation:  slideInUpAnimation 2s ease-in-out;
+  }

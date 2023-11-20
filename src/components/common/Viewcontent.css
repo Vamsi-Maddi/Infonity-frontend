@@ -1,0 +1,51 @@
+/* .container {
+    display: flex;
+  }
+  
+  .links-container {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .video-container {
+    flex: 2; /* Takes 2/3 (70%) of the width */
+    /* padding: 20px;
+  }  */
+
+  .container {
+    max-width: 800px;
+  }
+
+  .card {
+    margin-bottom: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+
+  .content-header {
+    background-color: #007bff; /* Blue card header */
+    color: #ffffff; /* White text for card header */
+  }
+
+  .content-body {
+    color: #495057; /* Dark gray text for card body */
+  }
+
+  .btn-primary {
+    background-color: #17a2b8; /* Teal button */
+    border-color: #17a2b8; /* Teal button border */
+  }
+
+  .btn-primary:hover {
+    background-color: #138496; /* Darker teal on hover */
+    border-color: #138496; /* Darker teal border on hover */
+  }
+
+  .link-btn {
+    float: right;
+  }
+
+  .creative-content {
+    font-style: italic;
+    color: #6c757d; /* Gray text for creative content */
+  }
+  

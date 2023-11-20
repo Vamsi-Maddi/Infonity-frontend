@@ -1,0 +1,14 @@
+.main { 
+    background-image:url('2p2.jpg');
+    padding-bottom: 35%;
+    background-size: cover;
+    /* margin-bottom: 15px; */
+    /* width: 100% ; */
+    /* background-color: rgb(37, 37, 86); */
+    /* position: absolute; */
+  } 
+  .courses{
+    position: absolute;
+    margin-bottom: 1%;
+    bottom: 0px;
+  }

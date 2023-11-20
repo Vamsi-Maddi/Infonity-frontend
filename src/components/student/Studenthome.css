@@ -1,0 +1,42 @@
+.homediv{
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding-bottom : 40%;
+    background-image: url('./studenthomeimage.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+
+}
+
+header {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.welcome-message {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.courses {
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-around; */
+    bottom: 1% ;
+    position: absolute;
+}
+
+
+
+/* .course {
+    width: 30%;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px 0;
+    box-shadow: 0 8px 4px rgba(0, 0, 0, 0.1);
+} */
+

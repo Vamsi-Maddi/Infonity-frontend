@@ -1,0 +1,36 @@
+.btn-rounded {
+    border-radius: 30px;
+  }
+  .btn {
+    width: 45%;
+    height: 40px;
+    font-size: small;
+    font-weight: 600;
+  }
+  .btn:active,
+  .btn:focus,
+  .btn.active {
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  .hov:after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    display: block;
+    transition: all 0.3s ease;
+    bottom: 25%;
+  }
+  .hov:hover::after {
+    width: 85px;
+    height: 3px;
+    background-color: #ffa500;
+  }
+  .bgcol{
+    background-color: rgb(250, 249, 249);
+  }
+  a{
+    cursor: pointer;
+  }
